@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --theme-color:#ff1756;
+}
+body{
+    background-color: white;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    height: 420px;
+    width: 320px;
+    background: linear-gradient(to bottom, var(--theme-color) 110px, #ffffff 110px);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(50,50,50,0.1);
+    padding: 50px 0;
+}
+.card *{
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+img{
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+    box-shadow: 0 0 0 8px #ffffff;
+}
+.card h4{
+    color: var(--theme-color);
+    margin: 10px 0 5px 0px;
+    font-size: 25px;
+}
+.card h5{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+}
+.details{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details h2{
+    font-weight: 700;
+}
+.details span{
+    color: var(--theme-color);
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.buttons button{
+    width: 130px;
+    padding: 8px 0px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:first-child{
+    color: #ffffff;
+    background-color: var(--theme-color);
+}
+.buttons button:last-child{
+    color: #ffffff;
+    background-color: var(--theme-color);
+}
+.themes{
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 5px 15px rgba(50,50,50,0.1);
+}
+.themes button{
+    height: 25px;
+    width: 25px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn1{
+background-color: teal;
+}
+.btn2{
+    background-color: #ff1756;
+}
+.btn3{
+    background-color: darkmagenta;
+}
+.btn4{
+    background-color: blue;
+}
+.btn5{
+    background-color: green;
+}
